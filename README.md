@@ -1,110 +1,104 @@
-# PERSONAL-AI-ASSISTANT-
-ITS IS A PROJECT OF PERSONAL AI ASSISTANT 
-# 🤖 AI Personal Assistant | Intelligent Workflow Automation with n8n
+# 🤖 AI Web Search Assistant
 
-> *An AI-powered personal assistant that combines workflow automation with large language models to streamline everyday tasks, automate repetitive processes, and deliver intelligent responses.*
+An AI-powered assistant that combines **LLM intelligence** with **real-time Google Search** to provide accurate, up-to-date, and summarized responses.
 
----
+## 🚀 Features
 
-## 🌟 Project Overview
-
-This project showcases how **Artificial Intelligence** and **workflow automation** can be combined to build a smart personal assistant. Developed using **n8n**, the assistant can understand user requests, process information, connect with external services, and automate tasks through an intuitive workflow.
-
-The project demonstrates practical applications of AI in productivity, automation, and intelligent decision-making.
-
----
-
-## ✨ Key Features
-
-* 🤖 AI-powered conversational assistant
-* 🧠 Natural language understanding
-* ⚡ Intelligent workflow automation
-* 🌐 API integration with external services
-* 📧 Email drafting and automation
-* 📄 Text summarization and content generation
-* 📅 Task and reminder management
-* 🔗 Scalable and customizable workflow architecture
-* 🔒 Secure API-based integration
+- 🔍 Real-time Google Search
+- 🧠 AI-powered intelligent responses
+- 💬 Conversational chat interface
+- 🧮 Built-in Calculator Tool
+- 🌐 HTTP API Integration
+- 🧠 Conversation Memory
+- 📌 Dynamic Query Processing
+- ⚡ Automated n8n Workflow
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-* **n8n** – Workflow Automation Platform
-* **OpenAI API** – AI-powered responses
-* **REST APIs**
-* **Webhooks**
-* **JSON**
-* **HTTP Request Nodes**
+- n8n (Workflow Automation)
+- Groq AI (Llama 3.3 70B)
+- SerpAPI (Google Search API)
+- HTTP Request Tool
+- Calculator Tool
+- Simple Memory
 
 ---
 
-## 🔄 Workflow Architecture
+## 📊 Workflow
 
-```text
-User Request
-      │
-      ▼
-Webhook Trigger
-      │
-      ▼
-Input Processing
-      │
-      ▼
-AI Model (OpenAI)
-      │
-      ▼
-Response Generation
-      │
-      ▼
-Output / Automated Action
+```
+User Query
+     │
+     ▼
+Chat Trigger
+     │
+     ▼
+AI Agent
+ ├── Groq AI Model
+ ├── Memory
+ ├── Calculator Tool
+ └── HTTP Request
+          │
+          ▼
+      SerpAPI
+          │
+          ▼
+ Google Search Results
+          │
+          ▼
+ AI Summarizes Results
+          │
+          ▼
+ Final Response
 ```
 
 ---
 
-## 🚀 Applications
+## 🎯 What This Assistant Can Do
 
-* Personal Productivity Assistant
-* AI Chatbot
-* Email Automation
-* Smart Content Generation
-* Knowledge Assistant
-* Workflow Automation
-* API Integration
-
----
-
-## 📈 Future Enhancements
-
-* 🎤 Voice Assistant
-* 🌍 Multi-language Support
-* 🧠 Long-Term Memory
-* 📅 Google Calendar Integration
-* 📱 WhatsApp & Telegram Integration
-* 📂 Document Knowledge Base (RAG)
+- Search Google in real time
+- Answer current affairs and latest information
+- Perform mathematical calculations
+- Remember conversation context
+- Summarize web search results
+- Generate clean, human-readable responses
 
 ---
 
-## 💡 Learning Outcomes
+## 📚 What I Learned
 
-This project helped me understand:
-
-* AI workflow design
-* Prompt engineering
-* API integration
-* Automation using n8n
-* Webhook-based communication
-* Building scalable AI solutions
-
----
-
-## 👨‍💻 Developer
-
-**Your Name**
-
-Built with ❤️ using **n8n** and **AI**.
+- AI Agent Architecture
+- Workflow Automation using n8n
+- API Integration
+- HTTP Requests
+- Prompt Engineering
+- Tool Calling
+- Debugging AI Workflows
+- LLM Integration
+- Dynamic Expressions
 
 ---
 
-⭐ *Thank you for visiting this project! Feedback and suggestions are always welcome.*
+## 🔮 Future Improvements
+
+- 🎙️ Voice Assistant (Jarvis Style)
+- 📱 WhatsApp AI Bot
+- 🤖 Telegram Bot
+- 📄 PDF Q&A Assistant
+- 🔊 Text-to-Speech
+- 🎤 Speech-to-Text
+- Database Integration
+- Long-Term Memory
+
+---
+
+## 👨‍💻 Author
+
+**Shivam Pratham**
+
+*B.Tech – Artificial Intelligence & Data Science*
+
+*"Building AI solutions one workflow at a time."* 🚀
 
